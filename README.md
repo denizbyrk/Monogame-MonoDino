@@ -2,6 +2,12 @@
 
 A Chrome Dinosaur Game Clone that has been created using C# and Monogame Framework.
 
+## Gameplay
+
+**Might take some time to load**
+
+<img src="https://github.com/user-attachments/assets/8acc7ce0-d29b-4413-9041-5ecfec6bd1f8" alt="Loading..." width="500">
+
 ## Installation
 
 The following are the instructions for running the code:
