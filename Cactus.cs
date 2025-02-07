@@ -14,14 +14,22 @@ namespace MonoDino {
 
         //check if a cactus has spawned, used to delay bird spawn, so they don't spawn at the same time
         public static bool cactusSpawned = false;
+
+        //style of the spawned cactus, randomly selected out of 6 possible ones
         private int cactusStyle;
         private int tempCactusStyle;
-        private int timer;
+
+        //hitbox of the spawned cactus
         private int width;
         private int height;
+
+        //min and max time between cactus spawns
         private int minTime = 1000;
         private int maxTime = 2500;
- 
+
+        //timer for cactus spawn
+        private int timer;
+
         public Cactus() {
 
             this.timer = 0;
